@@ -7,7 +7,7 @@ import { en, es, pt } from './lib/idiomas/total-idiomas.js'
 
 //cambia los números que sean propietarios 
 global.owner = [
-  ['593959425714', '🔰 𝐃𝐈𝐄𝐆𝐎 - 𝐂𝐑𝐄𝐀𝐃𝐎𝐑 🔰', true],
+  ['51938240845', '🔰 DANIEL - 𝐂𝐑𝐄𝐀𝐃𝐎𝐑 🔰', true],
   ['51993138466', '🔰  𝐃𝐎𝐑𝐑𝐀𝐓∆𝐁𝐎𝐓 - 𝙲𝙾𝙻𝙻𝙰𝙱𝙾𝚁𝙰𝚃𝙾𝚁 1 🔰', true],
   ['573184314110', '🔰 𝐃𝐎𝐑𝐑𝐀𝐓∆𝐁𝐎𝐓 - 𝙲𝙾𝙻𝙻𝙰𝙱𝙾𝚁𝙰𝚃𝙾𝚁 3 🔰', true],
   ['50246028932', '🔰  𝐃𝐎𝐑𝐑𝐀𝐓∆𝐁𝐎𝐓 - 𝙲𝙾𝙻𝙻𝙰𝙱𝙾𝚁𝙰𝚃𝙾𝚁 4 🔰', true],
@@ -84,7 +84,7 @@ global.APIKeys = { // APIKey Here
 global.lenguajeGB = es //Idioma de †𝐃⃟𝕺𝐑⃯𝐑𝐇⃯𝚵𝐓᪣𝕭⃯𝚹⃯𝐓⃤, Ejemplo: es | en | pt ....
 
 /* ______________________________________________ */
-global.creadorname = '𝐃𝐈𝐄𝐆𝐎-𝐎𝐅𝐂'
+global.creadorname = '𝐃ANIEL'
 global.creatorname = creadorname
 global.library = 'BAILEYS-MD'
 global.vs = '1.3.7'
@@ -192,7 +192,7 @@ global.fgif = {
 
 /* _____________________________________ */
 
-global.multiplier = 999 // Cuanto más alto, más difícil subir de nivel | The higher, The harder levelup 
+global.multiplier = 99 // Cuanto más alto, más difícil subir de nivel | The higher, The harder levelup 
 
 global.rpg = {
 emoticon(string) {
