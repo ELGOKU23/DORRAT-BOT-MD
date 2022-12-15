@@ -43,21 +43,21 @@ LIGHT_GREEN="\e[92m"
 LIGHT_RED="\e[91m"
 DEFAULT="\e[39m"
 
-FILE=$1
-APPLICATION=$2
-MANAGER=$6
-TERMINAL=$7
-AUTO_INSTALL=$8
-AUTO_PULL=$9
-LOGGER=${10}
-if [ "$2" != "none" ]; then
+FILE=$0
+APPLICATION=$0
+MANAGER=$0
+TERMINAL=$0
+AUTO_INSTALL=$0
+AUTO_PULL=$0
+LOGGER=${0}
+if [ "2" != "none" ]; then
     GIT_REPOSITORY=""
     GIT_BRANCH=""
     GIT_TOKEN=""; shift
-elif [ "$2" == "none" ]; then
-    GIT_REPOSITORY="$3"
-    GIT_BRANCH="$4"
-    GIT_TOKEN="$5"; shift
+elif [ "$0" == "none" ]; then
+    GIT_REPOSITORY="$0"
+    GIT_BRANCH="$0"
+    GIT_TOKEN="$0"; shift
 fi
 
 echo -e "${LIGHT_MAGENTA}************************************************************${DEFAULT}"
